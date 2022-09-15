@@ -33,6 +33,24 @@ CPMAddPackage(
   OPTIONS "FMT_INSTALL YES" # create an installable target
 )
 
+CPMAddPackage(
+  NAME boost
+  GIT_TAG boost-1.80.0
+  GITHUB_REPOSITORY boostorg/boost
+)
+
+CPMAddPackage(
+  NAME curl
+  GIT_TAG curl-7_85_0
+  GITHUB_REPOSITORY curl/curl
+)
+
+CPMAddPackage(
+  NAME influxdb-cxx
+  GIT_TAG v0.6.7
+  GITHUB_REPOSITORY offa/influxdb-cxx
+  )
+
 # ---- Add source files ----
 
 # Note: globbing sources is considered bad practice as CMake's generators may not detect new files
@@ -74,5 +92,5 @@ packageProject(
   INCLUDE_DESTINATION include/${PROJECT_NAME}-${PROJECT_VERSION}
   VERSION_HEADER "${VERSION_HEADER_LOCATION}"
   COMPATIBILITY SameMajorVersion
-  DEPENDENCIES "fmt 8.1.1"
+  DEPENDENCIES "fmt 8.1.1; boost boost-1.80.0; influxdb-cxx v0.6.7; curl curl-7_85_0"
 )
