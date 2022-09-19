@@ -34,18 +34,6 @@ CPMAddPackage(
 )
 
 CPMAddPackage(
-  NAME boost
-  GIT_TAG boost-1.80.0
-  GITHUB_REPOSITORY boostorg/boost
-)
-
-CPMAddPackage(
-  NAME curl
-  GIT_TAG curl-7_85_0
-  GITHUB_REPOSITORY curl/curl
-)
-
-CPMAddPackage(
   NAME influxdb-cxx
   GIT_TAG v0.6.7
   GITHUB_REPOSITORY offa/influxdb-cxx
