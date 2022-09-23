@@ -1,0 +1,7 @@
+mem,host=host1 used_percent=64.23 1577836800000000000
+mem,host=host2 used_percent=72.01 1577836800000000000
+mem,host=host1 used_percent=62.61 1577836810000000000
+mem,host=host2 used_percent=72.98 1577836810000000000
+mem,host=host1 used_percent=63.40 1577836820000000000
+mem,host=host2 used_percent=73.77 1577836820000000000
+

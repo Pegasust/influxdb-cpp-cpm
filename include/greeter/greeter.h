@@ -28,4 +28,5 @@ namespace greeter {
     std::string greet(LanguageCode lang = LanguageCode::EN) const;
   };
 
+  void test_influxdb(std::ostream& os);
 }  // namespace greeter

@@ -1,0 +1,18 @@
+services:
+  influxdb:
+    image: influxdb:2.4-alpine
+    environment:
+    - DOCKER_INFLUXDB_INIT_MODE=setup
+    - DOCKER_INFLUXDB_INIT_USERNAME=root
+    - DOCKER_INFLUXDB_INIT_PASSWORD=password
+    - DOCKER_INFLUXDB_INIT_ORG=pegasust
+    - DOCKER_INFLUXDB_INIT_BUCKET=influxdb-cpp-cpm
+    volumes:
+    - influxdb-cpp-cpm-persist:/var/lib/influxdb2
+    - $PWD/influxdb/:/etc/influxdb2
+    ports: 
+    - 8086:8086
+
+volumes:
+  influxdb-cpp-cpm-persist:
+

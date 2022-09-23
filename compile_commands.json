@@ -1,0 +1,77 @@
+[
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/standalone",
+  "command": "/usr/bin/c++  -I/home/hwtr/git_server/influxdb-cpp-cpm/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/greeter-build/PackageProjectInclude -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/cxxopts-src/include -O2 -g -DNDEBUG -Wall -Wpedantic -Wextra -Werror -o CMakeFiles/GreeterStandalone.dir/source/main.cpp.o -c /home/hwtr/git_server/influxdb-cpp-cpm/standalone/source/main.cpp",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/standalone/source/main.cpp"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/greeter-build",
+  "command": "/usr/bin/c++ -DFMT_LOCALE -DFMT_SHARED -DGreeter_EXPORTS -I/home/hwtr/git_server/influxdb-cpp-cpm/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/greeter-build/PackageProjectInclude -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/fmt-src/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src -O2 -g -DNDEBUG -fPIC -Wall -Wpedantic -Wextra -Werror -std=gnu++20 -o CMakeFiles/Greeter.dir/source/greeter.cpp.o -c /home/hwtr/git_server/influxdb-cpp-cpm/source/greeter.cpp",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/source/greeter.cpp"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/fmt-build",
+  "command": "/usr/bin/c++ -DFMT_EXPORT -DFMT_LOCALE -Dfmt_EXPORTS -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/fmt-src/include -O2 -g -DNDEBUG -fPIC -std=gnu++11 -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/fmt-src/src/format.cc",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/fmt-src/src/format.cc"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/fmt-build",
+  "command": "/usr/bin/c++ -DFMT_EXPORT -DFMT_LOCALE -Dfmt_EXPORTS -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/fmt-src/include -O2 -g -DNDEBUG -fPIC -std=gnu++11 -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/fmt-src/src/os.cc",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/fmt-src/src/os.cc"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src",
+  "command": "/usr/bin/c++  -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src -O2 -g -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pedantic -pedantic-errors -Werror -Wshadow -Wold-style-cast -Wnull-dereference -Wnon-virtual-dtor -Woverloaded-virtual -std=c++17 -o CMakeFiles/InfluxDB-Http.dir/HTTP.cxx.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/HTTP.cxx",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/HTTP.cxx"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/3rd-party -O2 -g -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pedantic -pedantic-errors -Werror -Wshadow -Wold-style-cast -Wnull-dereference -Wnon-virtual-dtor -Woverloaded-virtual -std=c++17 -o CMakeFiles/InfluxDB-BoostSupport.dir/BoostSupport.cxx.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/BoostSupport.cxx",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/BoostSupport.cxx"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/3rd-party -O2 -g -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pedantic -pedantic-errors -Werror -Wshadow -Wold-style-cast -Wnull-dereference -Wnon-virtual-dtor -Woverloaded-virtual -std=c++17 -o CMakeFiles/InfluxDB-BoostSupport.dir/UDP.cxx.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/UDP.cxx",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/UDP.cxx"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_SYSTEM_DYN_LINK -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/3rd-party -O2 -g -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pedantic -pedantic-errors -Werror -Wshadow -Wold-style-cast -Wnull-dereference -Wnon-virtual-dtor -Woverloaded-virtual -std=c++17 -o CMakeFiles/InfluxDB-BoostSupport.dir/UnixSocket.cxx.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/UnixSocket.cxx",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/UnixSocket.cxx"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src",
+  "command": "/usr/bin/c++  -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src -O2 -g -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pedantic -pedantic-errors -Werror -Wshadow -Wold-style-cast -Wnull-dereference -Wnon-virtual-dtor -Woverloaded-virtual -std=c++17 -o CMakeFiles/InfluxDB-Internal.dir/LineProtocol.cxx.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/LineProtocol.cxx",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/LineProtocol.cxx"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src",
+  "command": "/usr/bin/c++ -DInfluxDB_EXPORTS -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src -O2 -g -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pedantic -pedantic-errors -Werror -Wshadow -Wold-style-cast -Wnull-dereference -Wnon-virtual-dtor -Woverloaded-virtual -std=c++17 -o CMakeFiles/InfluxDB.dir/InfluxDB.cxx.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/InfluxDB.cxx",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/InfluxDB.cxx"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src",
+  "command": "/usr/bin/c++ -DInfluxDB_EXPORTS -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src -O2 -g -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pedantic -pedantic-errors -Werror -Wshadow -Wold-style-cast -Wnull-dereference -Wnon-virtual-dtor -Woverloaded-virtual -std=c++17 -o CMakeFiles/InfluxDB.dir/Point.cxx.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/Point.cxx",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/Point.cxx"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src",
+  "command": "/usr/bin/c++ -DInfluxDB_EXPORTS -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-build/src -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src -O2 -g -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -Wall -Wextra -pedantic -pedantic-errors -Werror -Wshadow -Wold-style-cast -Wnull-dereference -Wnon-virtual-dtor -Woverloaded-virtual -std=c++17 -o CMakeFiles/InfluxDB.dir/InfluxDBFactory.cxx.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/InfluxDBFactory.cxx",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/influxdb-cxx-src/src/InfluxDBFactory.cxx"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/test",
+  "command": "/usr/bin/c++  -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/doctest-src -I/home/hwtr/git_server/influxdb-cpp-cpm/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/greeter-build/PackageProjectInclude -O2 -g -DNDEBUG -Wall -Wpedantic -Wextra -Werror -std=gnu++20 -o CMakeFiles/GreeterTests.dir/source/influxdb-cpp-cpm.cpp.o -c /home/hwtr/git_server/influxdb-cpp-cpm/test/source/influxdb-cpp-cpm.cpp",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/test/source/influxdb-cpp-cpm.cpp"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/test",
+  "command": "/usr/bin/c++  -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/doctest-src -I/home/hwtr/git_server/influxdb-cpp-cpm/include -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/greeter-build/PackageProjectInclude -O2 -g -DNDEBUG -Wall -Wpedantic -Wextra -Werror -std=gnu++20 -o CMakeFiles/GreeterTests.dir/source/main.cpp.o -c /home/hwtr/git_server/influxdb-cpp-cpm/test/source/main.cpp",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/test/source/main.cpp"
+},
+{
+  "directory": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/doctest-build",
+  "command": "/usr/bin/c++ -DDOCTEST_CONFIG_IMPLEMENT_WITH_MAIN -I/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/doctest-src -O2 -g -DNDEBUG -std=gnu++11 -o CMakeFiles/doctest_with_main.dir/doctest/parts/doctest.cpp.o -c /home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/doctest-src/doctest/parts/doctest.cpp",
+  "file": "/home/hwtr/git_server/influxdb-cpp-cpm/build/_deps/doctest-src/doctest/parts/doctest.cpp"
+}
+]
