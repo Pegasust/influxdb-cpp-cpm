@@ -37,8 +37,7 @@ CPMAddPackage(
 
 CPMAddPackage(
   NAME influxdb-cxx
-  GIT_TAG v0.6.7
-  GITHUB_REPOSITORY offa/influxdb-cxx
+  GITHUB_REPOSITORY pegasust/influxdb-cxx
   )
 
 # ---- Add source files ----
